@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="gbk">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>电子商城网站</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        /*去除无序列表的点*/
+        ul {
+            list-style: none;
+        }
+        /*清除浮动*/
+        .clearfix:after,
+        .clearfix:before {
+            display: table;
+            content: "";
+        }
+        .clearfix:after {
+            clear: both;
+        }
+        .clearfix:before {
+            *zoom: 1;
+        }
+        a {
+            color: #050505;
+            text-decoration: none;
+
+        }
+        header {
+            height: 35px;
+            background-color: #f5f5f5;
+            border: 1px solid #eee;
+            overflow: hidden;
+        }
+        .nav-bd {
+            width: 1190px;
+            height: 35px;
+            margin: 0 auto;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            /* Chrome 和 Safari */
+            -moz-backface-visibility: hidden;
+            /* Firefox */
+            -ms-backface-visibility: hidden;
+        }
+        .nav-bd-1 {
+            font-size: 12px/1.5;
+            float: left;
+            visibility: visible;
+            height: 30px;
+            line-height: 30px;
+            margin-left: 50px;
+        }
+        .nav-bd-1 li {
+            float: left;
+        }
+        .nav-bd-1 li a {
+            padding: 0 8px;
+            display: block;
+            height: 30px;
+        }
+        .nav-bd-1 li a:hover {
+            color: #c81623;
+        }
+        .logo img {
+            width: 50px;
+            float: left;
+        }
+        .search {
+            height: 32px;
+            width: 480px;
+            border: 1px solid #e43f21;
+            float: left;
+        }
+        .search input[type=text] {
+            width: 400px;
+            height: 32px;
+            padding-left: 20px;
+            float: left;
+        }
+        .search input[type=submit] {
+            width: 60px;
+            height: 32px;
+            background-color: #e43f21;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bd">
+            <div class="nav-bd-1">
+                <ul>
+                    <li><a href="#">广东</a></li>
+                    <li><a href="#">你好，请登录</a></li>
+                    <li><a href="#" style="color:#f10215">免费注册</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- logo部分 3c3c3c-->
+    <div class="logo">
+        <img src="image/logo.jpg" alt="">
+    </div>
+    <!-- search部分 -->
+    <div class="search">
+        <form action="">
+            <input type="text" placeholder="请输入关键词">
+            <input type="submit" value="">
+        </form>
+
+    </div>
+</body>
+
+</html>
