@@ -10,20 +10,7 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
-    <style>
-        /*清除浮动*/
-        .clearfix:after,
-        .clearfix:before {
-            display: table;
-            content: "";
-        }
-        .clearfix:after {
-            clear: both;
-        }
-        .clearfix:before {
-            *zoom: 1;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
@@ -31,42 +18,56 @@
     <div class="navigationbar">
         <div class="frame">
             <ul class="floatl">
-                <li>广东</li>
+                <li>
+                    <i class="icon-location2 f10"></i><a href="#">广东</a>
+                </li>
             </ul>
             <ul class="floatr">
                 <li>
                     <a href="#">你好，请登录</a>
-                    <a href="#">免费注册</a>
+                    <a href="#" class="f10">免费注册</a>
                 </li>
-                <li class="vertical_line">|</li>
+                <li class="vertical_line"></li>
                 <li>
                     <a href="#">我的订单</a>
                 </li>
-                <li class="vertical_line">|</li>
+                <li class="vertical_line"></li>
                 <li>
                     <a href="#">我的商城</a>
+                    <i class="icon-ctrl"></i>
                 </li>
-                <li class="vertical_line">|</li>
+                <li class="vertical_line"></li>
                 <li>
                     <a href="#">客户服务</a>
+                    <i class="icon-ctrl"></i>
                 </li>
-                <li class="vertical_line">|</li>
+                <li class="vertical_line"></li>
                 <li>
                     <a href="#">网站导航</a>
+                    <i class="icon-ctrl"></i>
                 </li>
             </ul>
         </div>
     </div>
     <!-- 导航栏部分 end -->
-    <!-- logo部分 3c3c3c-->
-    
-    <!-- search部分 -->
-    <div class="search">
-        <form action="">
-            <input type="text" placeholder="请输入关键词">
-            <input type="submit" value="">
-        </form>
-
+    <div class="frame middle">
+    <!-- logo部分 start-->
+        <div class="logo">
+            <h1>
+                <a href="#"></a>
+            </h1>
+        </div>
+    <!-- logo部分 end-->
+    <!-- 搜索框 start -->
+        <div class="search">
+            <div class="search_input">
+                <input type="text" placeholder="请输入关键词">
+            </div>
+            <button>
+                <i class="icon-search"></i>
+            </button>
+        </div>
+    <!-- 搜索框 end -->
     </div>
 </body>
 

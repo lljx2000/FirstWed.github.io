@@ -5,18 +5,27 @@
 body {
     background-color: #f6f6f6;
 }
+.f10 {
+    color: #f10215!important;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+input, button {
+    border: 0;
+    outline: none; /*取消轮廓边框*/
+}
 /*去除无序列表的点*/
 ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 /* 竖线 */
 .vertical_line {
     width: 1px;
-    height: 10px;
+    height: 16px;
     background-color: #ccc;
-    margin: 10px 12px 0;
+    margin: 8px 12px 0;
 }
 /* 导航栏start */
 .navigationbar {
@@ -30,7 +39,61 @@ ul {
 .navigationbar li {
     float: left;
 }
+.navigationbar i {
+    font-family: 'icomoon';
+    font-style: normal;
+    color: #ccc;
+}
+.navigationbar a:hover {
+    color: #e33333;
+}
 /* 导航栏end */
+/* logo和搜索框部分 start */
+.middle {
+    height: 140px;
+    position: relative;
+}
+/* logo start */
+.logo {
+    position: absolute;
+    top: 10px;
+}
+.logo a {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background: url(../images/logo1.png) no-repeat;
+}
+/* logo end */
+/* 搜索框 start */
+.search {
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    top: 25px; 
+    left: 320px;
+}
+.search input {
+    width: 492px;
+    height: 33px;
+    border: 1px solid #e2231a;
+    float: left;
+    font-size: 14px;
+    padding: 0 3px;
+}
+.search button {
+    width: 50px;
+    height: 35px;
+    float: left;
+    background-color: #e2231a;
+}
+.search i {
+    font-family: 'icomoon';
+    font-style: normal;
+    color: #fff;
+}
+/* 搜索框 end */
+/* logo和搜索框部分 start */
 /* 浮动 */
 .floatl {
     float: left;
@@ -43,4 +106,16 @@ a {
     text-decoration: none;
     font-size: 12px;
     color: #999;
+}
+/*清除浮动*/
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: "";
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix:before {
+    *zoom: 1;
 }
