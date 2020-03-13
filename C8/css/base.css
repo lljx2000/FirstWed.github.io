@@ -125,6 +125,35 @@ ul {
     line-height: 15px;
 }
 /* 购物车 end */
+/* 关键词 start */
+.hotwords {
+    position: absolute;
+    top: 68px;
+    left: 320px;
+
+}
+/* 关键词 end */
+/* 小导航部分 start */
+.navitems {
+    width: 770px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 200px;
+}
+.navitems li {
+    float: left;
+    margin-left: 30px;
+}
+.navitems li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+}
+.navitems li a:hover {
+    color: #f10215;
+}
+/* 小导航部分 end */
 /* 浮动 */
 .floatl {
     float: left;
