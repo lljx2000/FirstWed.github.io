@@ -14,20 +14,20 @@ body {
 }
 input, button {
     border: 0;
-    outline: none; /*È¡ÏûÂÖÀª±ß¿ò*/
+    outline: none; /*å–æ¶ˆè½®å»“è¾¹æ¡†*/
 }
-/*È¥³ıÎŞĞòÁĞ±íµÄµã*/
+/*å»é™¤æ— åºåˆ—è¡¨çš„ç‚¹*/
 ul {
     list-style: none;
 }
-/* ÊúÏß */
+/* ç«–çº¿ */
 .vertical_line {
     width: 1px;
     height: 16px;
     background-color: #ccc;
     margin: 8px 12px 0;
 }
-/* µ¼º½À¸start */
+/* å¯¼èˆªæ start */
 .navigationbar {
     height: 32px;
     line-height: 32px;
@@ -47,8 +47,8 @@ ul {
 .navigationbar a:hover {
     color: #e33333;
 }
-/* µ¼º½À¸end */
-/* logoºÍËÑË÷¿ò²¿·Ö start */
+/* å¯¼èˆªæ end */
+/* logoå’Œæœç´¢æ¡†éƒ¨åˆ† start */
 .middle {
     height: 140px;
     position: relative;
@@ -65,7 +65,7 @@ ul {
     background: url(../images/logo1.png) no-repeat;
 }
 /* logo end */
-/* ËÑË÷¿ò start */
+/* æœç´¢æ¡† start */
 .search {
     width: 550px;
     height: 35px;
@@ -92,22 +92,34 @@ ul {
     font-style: normal;
     color: #fff;
 }
-/* ËÑË÷¿ò end */
-/* logoºÍËÑË÷¿ò²¿·Ö start */
-/* ¸¡¶¯ */
+/* æœç´¢æ¡† end */
+/* logoå’Œæœç´¢æ¡†éƒ¨åˆ† end */
+/* è´­ç‰©è½¦ start */
+.shopcar {
+    width:188px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 25px;
+    right: 95px;
+}
+
+/* è´­ç‰©è½¦ end */
+/* æµ®åŠ¨ */
 .floatl {
     float: left;
 }
 .floatr {
     float: right;
 }
-/* a¹«¹²ÑùÊ½ */
+/* aå…¬å…±æ ·å¼ */
 a {
     text-decoration: none;
     font-size: 12px;
     color: #999;
 }
-/*Çå³ı¸¡¶¯*/
+/*æ¸…é™¤æµ®åŠ¨*/
 .clearfix:after,
 .clearfix:before {
     display: table;
