@@ -103,8 +103,27 @@ ul {
     position: absolute;
     top: 25px;
     right: 95px;
+    text-align: center;
+    color: #f10215;
 }
-
+.shopcar i {
+    font-family: 'icomoon';
+    margin-right: 5px;
+    font-style: normal;
+    color: #fff;
+}
+.shopcar span{
+    width: 15px;
+    height: 15px;
+    background-color: #f10215;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 15px;
+}
 /* 购物车 end */
 /* 浮动 */
 .floatl {
