@@ -56,7 +56,7 @@ ul {
 /* logo start */
 .logo {
     position: absolute;
-    top: 10px;
+    top: -10px;
 }
 .logo a {
     display: block;
@@ -139,7 +139,8 @@ ul {
     height: 40px;
     position: absolute;
     bottom: 0;
-    left: 200px;
+    left: 240px;
+    line-height: 40px;
 }
 .navitems li {
     float: left;
@@ -154,6 +155,46 @@ ul {
     color: #f10215;
 }
 /* 小导航部分 end */
+/* 页面底部 start */
+.footer {
+    margin-top: 20px;
+    height: 220px;
+    background-color: #e3e4e5;
+}
+.footer_help {
+    height: 160px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+}
+.help_nav {
+    width: 297.5px;
+    float: left;
+}
+.footer_help h5 {
+    font-family: "Microsoft YaHei","Heiti SC",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    height: 30px;
+}
+.footer_help li {
+    font-family: "Microsoft YaHei","Heiti SC",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    height: 20px;
+}
+.footer_about {
+    text-align: center;
+    color: #999;
+    padding-top: 20px;
+    font-family: "Microsoft YaHei","Heiti SC",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
+    font-size: 12px;
+    font-style: normal;
+}
+.footer_about span {
+    margin: 0 10px;
+}
+/* 页面底部 end */
 /* 浮动 */
 .floatl {
     float: left;
