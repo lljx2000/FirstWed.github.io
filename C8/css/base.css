@@ -2,6 +2,9 @@
     width: 1190px;
     margin: 0 auto;
 }
+img {
+    vertical-align: top; /* 解决图片底测有空白缝隙的问题 */
+}
 body {
     background-color: #f6f6f6;
 }
@@ -135,7 +138,7 @@ ul {
 /* 关键词 end */
 /* 小导航部分 start */
 .navitems {
-    width: 770px;
+    width: 670px;
     height: 40px;
     position: absolute;
     bottom: 0;

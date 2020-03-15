@@ -2,7 +2,6 @@
 /* 中间分类部分 start */
 .grid {
     height: 480px;
-
 }
 .grid_left {
     width: 190px;
@@ -33,7 +32,10 @@
 .grid_middle {
     width: 790px;
     height: 100%;
-    margin: 10px;
+    margin: 0 10px;
+}
+.grid_middle_b {
+    margin: 10px 0;
 }
 .grid_right {
     width: 190px;
