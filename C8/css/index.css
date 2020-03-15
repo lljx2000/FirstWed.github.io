@@ -1,44 +1,231 @@
 /* 仅用于主页的css */
+
+
 /* 中间分类部分 start */
+
 .grid {
     height: 480px;
 }
+
 .grid_left {
     width: 190px;
     height: 100%;
     background-color: #6e6568;
     color: #fff;
-    font-size: 14px; /* 给/ */
+    font-size: 14px;
+    /* 给/ */
 }
+
 .grid_left ul {
     padding: 15px 0px;
 }
+
 .grid_left ul li {
     padding-left: 12px;
     height: 28px;
     line-height: 28px;
 }
+
 .grid_left ul li:hover {
     background-color: #9c9698;
 }
+
 .grid_left a {
     color: #fff;
     font-size: 14px;
     margin: 0 3px;
 }
+
 .grid_left a:hover {
     color: #f10215;
 }
+
 .grid_middle {
     width: 790px;
     height: 100%;
     margin: 0 10px;
 }
+
+.grid_middle_t {
+    position: relative;
+}
+
+.arrow_l,
+.arrow_r {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.15);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.arrow_r {
+    right: 0;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.arrow_l {
+    left: 0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.circle {
+    width: 110px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.circle li {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.circle .current {
+    background-color: #f10215;
+}
+
 .grid_middle_b {
     margin: 10px 0;
 }
+
 .grid_right {
     width: 190px;
     height: 100%;
 }
+
+.login {
+    height: 115px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.login_t {
+    width: 95px;
+    height: 60px;
+    font-size: 12px;
+    color: #666;
+    /*强制一行内显示*/
+    white-space: nowrap;
+    /*溢出隐藏*/
+    overflow: hidden;
+    /*超出的部分显示省略号*/
+    text-overflow: ellipsis;
+    padding-left: 60px;
+    line-height: 25px;
+    position: relative;
+}
+
+.login a {
+    color: #666;
+}
+
+.login_t a:hover {
+    color: #f10215;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.login_b a {
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    border: 2px solid #f10215;
+    color: #f10215;
+    line-height: 20px;
+    text-align: center;
+}
+
+.login_b a:hover {
+    background-color: #f10215;
+    color: #fff;
+}
+
+.news {
+    height: 154px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    padding: 7px 13px 0;
+    box-sizing: border-box;
+}
+
+.news_t {
+    height: 19px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.news a {
+    height: 17px;
+    line-height: 17px;
+}
+
+.news_t1 {
+    width: 38px;
+    border-right: 1px solid #ccc;
+}
+
+.news_t2 {
+    margin-left: 15px;
+}
+
+.red {
+    height: 2px;
+    width: 28px;
+    background-color: #f10215;
+    position: absolute;
+    bottom: -1px;
+    left: -2px;
+}
+
+.news_b {
+    padding-top: 10px;
+}
+
+.news_b li {
+    height: 23px;
+    line-height: 23px;
+}
+
+.news_b li a:hover {
+    color: #f10215;
+}
+
+.expand {
+    height: 209px;
+    background-color: #fff;
+}
+
+
 /* 中间分类部分 end */
