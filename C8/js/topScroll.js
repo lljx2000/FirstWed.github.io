@@ -1,5 +1,6 @@
 //控制顶部搜索栏的显示与隐藏
 window.onscroll = function() {
+    console.log("页面滑动了");
     //获取滚动条滚动的位置
     var top = document.documentElement.scrollTop;
     //获取到顶部的div class=navigationbar
