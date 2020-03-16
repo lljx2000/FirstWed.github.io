@@ -4,8 +4,7 @@ window.onscroll = function() {
     var top = document.documentElement.scrollTop;
     //获取到顶部的div class=navigationbar
     var nav = document.getElementsByClassName('nav')[0];
-    //假如top为150时，nav出现了
-    if (top >= 150) {
+    if (top >= 100) {
         nav.style.position = "fixed";
         nav.style.top = "0";
         nav.style.height = "48px";
