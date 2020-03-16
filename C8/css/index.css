@@ -1,5 +1,52 @@
 /* 仅用于主页的css */
 
+.nav {
+    width: 100%;
+    display: none;
+    background-color: #fff;
+    transition: all 10s;
+    border-bottom: 2px solid #f10215;
+    position: relative;
+}
+
+.search_logo {
+    position: absolute;
+    left: 170px;
+    top: 7px;
+}
+
+.search_logo span {
+    line-height: 36px;
+}
+
+.search_ss {
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    top: 7px;
+    left: 490px;
+}
+
+.search_ss input {
+    width: 492px;
+    height: 33px;
+    border: 1px solid #e2231a;
+    float: left;
+    font-size: 14px;
+    padding: 0 3px;
+}
+
+.search_ss button {
+    width: 50px;
+    height: 35px;
+    float: left;
+    background-color: #e2231a;
+}
+
+.search_ss i {
+    color: #fff;
+}
+
 
 /* 中间分类部分 start */
 
@@ -225,6 +272,25 @@
 .expand {
     height: 209px;
     background-color: #fff;
+    overflow: hidden;
+}
+
+.expand ul {
+    width: 195px;
+}
+
+.expand li {
+    width: 63px;
+    height: 69px;
+    line-height: 69px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+}
+
+.expand li a:hover {
+    color: #f10215;
 }
 
 

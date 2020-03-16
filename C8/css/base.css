@@ -2,35 +2,52 @@
     width: 1190px;
     margin: 0 auto;
 }
+
 img {
-    vertical-align: top; /* 解决图片底测有空白缝隙的问题 */
+    vertical-align: top;
+    /* 解决图片底测有空白缝隙的问题 */
 }
+
 body {
     background-color: #f6f6f6;
 }
+
 .f10 {
     color: #f10215!important;
 }
+
 * {
     padding: 0;
     margin: 0;
 }
-input, button {
+
+input,
+button {
     border: 0;
-    outline: none; /*取消轮廓边框*/
+    outline: none;
+    /*取消轮廓边框*/
 }
+
+
 /*去除无序列表的点*/
+
 ul {
     list-style: none;
 }
+
+
 /* 竖线 */
+
 .vertical_line {
     width: 1px;
     height: 16px;
     background-color: #ccc;
     margin: 8px 12px 0;
 }
+
+
 /* 导航栏start */
+
 .navigationbar {
     height: 32px;
     line-height: 32px;
@@ -39,43 +56,61 @@ ul {
     font-size: 12px;
     color: #999;
 }
+
 .navigationbar li {
     float: left;
 }
+
 .navigationbar i {
     font-family: 'icomoon';
     font-style: normal;
     color: #ccc;
 }
+
 .navigationbar a:hover {
     color: #e33333;
 }
+
+
 /* 导航栏end */
+
+
 /* logo和搜索框部分 start */
+
 .middle {
     height: 140px;
     position: relative;
 }
+
+
 /* logo start */
+
 .logo {
     position: absolute;
     top: -10px;
 }
+
 .logo a {
     display: block;
     width: 120px;
     height: 120px;
     background: url(../images/logo1.png) no-repeat;
 }
+
+
 /* logo end */
+
+
 /* 搜索框 start */
+
 .search {
     width: 550px;
     height: 35px;
     position: absolute;
-    top: 25px; 
+    top: 25px;
     left: 320px;
 }
+
 .search input {
     width: 492px;
     height: 33px;
@@ -84,22 +119,29 @@ ul {
     font-size: 14px;
     padding: 0 3px;
 }
+
 .search button {
     width: 50px;
     height: 35px;
     float: left;
     background-color: #e2231a;
 }
+
 .search i {
-    font-family: 'icomoon';
-    font-style: normal;
     color: #fff;
 }
+
+
 /* 搜索框 end */
+
+
 /* logo和搜索框部分 end */
+
+
 /* 购物车 start */
+
 .shopcar {
-    width:188px;
+    width: 188px;
     height: 33px;
     line-height: 33px;
     border: 1px solid #ccc;
@@ -109,13 +151,15 @@ ul {
     text-align: center;
     color: #f10215;
 }
+
 .shopcar i {
     font-family: 'icomoon';
     margin-right: 5px;
     font-style: normal;
     color: #fff;
 }
-.shopcar span{
+
+.shopcar span {
     width: 15px;
     height: 15px;
     background-color: #f10215;
@@ -127,16 +171,25 @@ ul {
     color: #fff;
     line-height: 15px;
 }
+
+
 /* 购物车 end */
+
+
 /* 关键词 start */
+
 .hotwords {
     position: absolute;
     top: 68px;
     left: 320px;
-
 }
+
+
 /* 关键词 end */
+
+
 /* 小导航部分 start */
+
 .navitems {
     width: 670px;
     height: 40px;
@@ -145,81 +198,109 @@ ul {
     left: 240px;
     line-height: 40px;
 }
+
 .navitems li {
     float: left;
     margin-left: 30px;
 }
+
 .navitems li a {
     font-size: 16px;
     font-weight: 700;
     color: #555555;
 }
+
 .navitems li a:hover {
     color: #f10215;
 }
+
+
 /* 小导航部分 end */
+
+
 /* 页面底部 start */
+
 .footer {
     margin-top: 20px;
     height: 220px;
     background-color: #e3e4e5;
 }
+
 .footer_help {
     height: 160px;
     padding-top: 25px;
     box-sizing: border-box;
     border-bottom: 1px solid #ccc;
 }
+
 .help_nav {
     width: 297.5px;
     float: left;
 }
+
 .footer_help h5 {
-    font-family: "Microsoft YaHei","Heiti SC",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
+    font-family: "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", "宋体", sans-serif;
     font-size: 14px;
     font-style: normal;
     height: 30px;
 }
+
 .footer_help li {
-    font-family: "Microsoft YaHei","Heiti SC",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
+    font-family: "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", "宋体", sans-serif;
     font-size: 12px;
     font-style: normal;
     height: 20px;
 }
+
 .footer_about {
     text-align: center;
     color: #999;
     padding-top: 20px;
-    font-family: "Microsoft YaHei","Heiti SC",tahoma,arial,"Hiragino Sans GB","宋体",sans-serif;
+    font-family: "Microsoft YaHei", "Heiti SC", tahoma, arial, "Hiragino Sans GB", "宋体", sans-serif;
     font-size: 12px;
     font-style: normal;
 }
+
 .footer_about span {
     margin: 0 10px;
 }
+
+
 /* 页面底部 end */
+
+
 /* 浮动 */
+
 .floatl {
     float: left;
 }
+
 .floatr {
     float: right;
 }
+
+
 /* a公共样式 */
+
 a {
     text-decoration: none;
     font-size: 12px;
     color: #999;
 }
+
+
 /*清除浮动*/
+
 .clearfix:after,
 .clearfix:before {
     display: table;
     content: "";
 }
+
 .clearfix:after {
     clear: both;
 }
+
 .clearfix:before {
     *zoom: 1;
 }
