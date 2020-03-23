@@ -21,13 +21,13 @@
 }
 
 .login_middle {
-    height: 475px;
+    height: 425px;
     background-color: #e93854;
     position: relative;
 }
 
 .login_form {
-    height: 445px;
+    height: 405px;
     width: 346px;
     margin: 10px 0 20px;
     position: absolute;
@@ -88,8 +88,74 @@
 }
 
 .form_input {
-    height: 306px;
+    height: 192px;
+    margin: 33px 20px;
+    box-sizing: border-box;
+}
+
+.Account {
+    height: 38px;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 20px;
+}
+
+.Account .A_i {
+    width: 38px;
+    border-right: 1px solid #bdbdbd;
+    border-bottom: 1px solid #bdbdbd;
+    background-color: #ccc;
+    text-align: center;
+    float: left;
+}
+
+.Account i {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    color: #666;
+}
+
+.Account input {
+    height: 38px;
+    line-height: 38px;
+    width: 254px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 15px;
+}
+
+.forget {
+    margin-bottom: 25px;
+    width: 304px;
+    text-align: right;
+
+}
+
+.btn {
+    background-color: #f10215;
+    height: 31px;
+    width: 304px;
+    text-align: center;
+}
+
+.btn a {
     width: 100%;
-    margin: 20px 10px;
-    background-color: #aaa;
+    height: 100%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.form_bottom {
+    height: 50px;
+    border-top: 1px solid #bdbdbd;
+    background-color: rgb(252, 252, 252);
+    line-height: 50px;
+}
+
+.form_bottom a {
+    color: #f10215;
+    font-size: 14px;
+    padding-right: 20px;
+    float: right;
 }
