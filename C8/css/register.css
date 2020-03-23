@@ -1,0 +1,75 @@
+.nav_logo {
+    position: relative;
+    width: 180px;
+    margin: 10px 0;
+    float: left;
+}
+
+.login_nav {
+    height: 80px;
+    background-color: #fff;
+    border-bottom: 2px;
+}
+
+.nav_logo b {
+    display: block;
+    width: 110px;
+    height: 40px;
+    font-size: 24px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.r_info {
+    display: block;
+    height: 21.33px;
+    line-height: 21.33px;
+    margin-top: 50px;
+}
+
+.r_info p {
+    display: inline-block;
+
+}
+
+.r_info a {
+    font-size: 16px;
+}
+
+.r_info a:hover {
+    color: #f10215;
+}
+
+.r_middle {
+    height: 700px;
+    width: 100%;
+    background-color: #e93854;
+    display: flex;
+}
+
+.r_form {
+    height: 670px;
+    width: 470px;
+    background-color: #fff;
+    margin: 10px auto 20px;
+}
+
+.form_tab {
+    height: 54px;
+    width: 100%;
+    border-bottom: 1px solid #f4f4f4;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.form_tab h2 {
+    line-height: 54px;
+    color: #666;
+    cursor: pointer;
+}
+
+.r_footer {
+    height: 100px;
+}
