@@ -19,6 +19,7 @@
     position: absolute;
     right: 0px;
     bottom: 0px;
+    color: #666;
 }
 
 .r_info {
@@ -110,9 +111,10 @@
 }
 
 .r_f li input {
-    width: 300px;
+    width: 280px;
     float: left;
     line-height: 24px;
+    border: 1px solid #666;
 }
 
 .but {
