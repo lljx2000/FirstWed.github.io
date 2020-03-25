@@ -20,3 +20,35 @@
     bottom: 0px;
     color: #666;
 }
+
+.search_logo span {
+    line-height: 36px;
+    font-size: 16px;
+}
+
+.search_ss {
+    width: 550px;
+    height: 35px;
+    float: right;
+    padding-top: 22.5px;
+}
+
+.search_ss input {
+    width: 492px;
+    height: 33px;
+    border: 1px solid #e2231a;
+    float: left;
+    font-size: 14px;
+    padding: 0 3px;
+}
+
+.search_ss button {
+    width: 50px;
+    height: 35px;
+    float: left;
+    background-color: #e2231a;
+}
+
+.search_ss i {
+    color: #fff;
+}
