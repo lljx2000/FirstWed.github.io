@@ -7,7 +7,7 @@
 
 .shop_nav {
     height: 80px;
-    background-color: #fff;
+    background-color: #f6f6f6;
 }
 
 .nav_logo b {
@@ -51,4 +51,43 @@
 
 .search_ss i {
     color: #fff;
+}
+
+.shop_middle {
+    height: 320px;
+    padding: 20px 0;
+    background-color: #f6f6f6;
+    display: flex;
+}
+
+.shop_m_info {
+    margin: auto;
+}
+
+.shop_car_text {
+    font-size: 14px;
+
+}
+
+.shop_car_btn {
+    padding: 2px 5px;
+    box-sizing: border-box;
+    background-color: #f10215;
+}
+
+.shop_car_a1 {
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #fff;
+    margin-right: 10px;
+}
+
+.shop_car_a2 {
+    color: #005ea7;
+}
+
+.shop_car_a2:hover {
+    color: #f10215;
 }
