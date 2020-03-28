@@ -145,7 +145,7 @@
 
 .commondity {
     margin-top: 10px;
-    height: 300px;
+    height: 500px;
 }
 
 .c_top {
@@ -182,6 +182,11 @@
     color: #fff;
 }
 
+.c_info {
+    height: 450px;
+    width: 100%;
+}
+
 .c_info_t {
     height: 426px;
     width: 238px;
@@ -203,6 +208,8 @@
 
 .c_info_i {
     height: 40px;
+    padding: 0 3px;
+    box-sizing: border-box;
 }
 
 .c_info_i a {
@@ -216,7 +223,8 @@
 }
 
 .c_info_commit {
-    padding-top: 10px;
+    padding: 10px 3px 0;
+    box-sizing: border-box;
     font-size: 12px;
     font-style: normal;
     color: #aaa;
@@ -227,7 +235,8 @@
 }
 
 .c_info_s {
-    padding-top: 10px;
+    padding: 10px 3px 0;
+    box-sizing: border-box;
     font-size: 12px;
     font-style: normal;
     color: #999;
@@ -236,12 +245,17 @@
 .c_info_botton {
     height: 25px;
     width: 198px;
-    margin-top: 10px;
+    margin: 10px auto 0;
     padding-left: 19px;
     border: 1px solid #ccc;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .c_info_botton a {
     color: #f10215;
+}
+
+.c_info li:hover {
+    border: 1px solid #ccc;
 }
